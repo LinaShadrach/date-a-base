@@ -1,7 +1,6 @@
 # _Date-A-Base_
 
-#### _Short Description._
-## _This is a dating app for programmers that allows them to build a dating profile and seek other programmers.
+## _This is a dating app for programmers. Users can build a dating profile and seek other programmers._
 
 _December 21, 2016_
 
