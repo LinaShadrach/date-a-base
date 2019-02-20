@@ -30,11 +30,6 @@ _This app allows users to create a profile that will be used as their "Dating Pr
 | Will allow User to delete specific messages sent from multiple profiles | View All Messages: From Brian: Yo --- DELETE                                       | View All Messages: null.                                                                                          |
 |                                                                         |                                                                                    |                                                                                                                   |
 
-## Required Tools
-
-* Runs on Windows.
- 
-
 ## Setup/Installation Requirements
 
 * Runs on Windows. Needs installtion of .NET Framework 4.5.1, MSSQL. 
