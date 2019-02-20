@@ -1,19 +1,19 @@
 # _Date-A-Base_
 
 #### _Short Description._
-## _This is a dating app for programmers that allows them to build a dating profile and seek other programmers., December 21, 2016 _
+## _This is a dating app for programmers that allows them to build a dating profile and seek other programmers., December 21, 2016_
 
 #### By _**Lina Shadrach, Brian Pritt, Taylor Loftis-Kim, James Howard**_
 
 ## Description
-_Longer Description_
-## _This app allows users to create a profile that will be used as their "Dating Profile". They will be able to edit multiple parameters of information, as well as add photos to their profile page. The User will be able to search for other profiles that are created, and see specific profiles that acquire matches. The User will be able to send messages to another profile, and that profile will be able to view the message, as well as reply to it. _
+
+_This app allows users to create a profile that will be used as their "Dating Profile". They will be able to edit multiple parameters of information, as well as add photos to their profile page. The User will be able to search for other profiles that are created, and see specific profiles that acquire matches. The User will be able to send messages to another profile, and that profile will be able to view the message, as well as reply to it._
 
 
 | SPECS                                                                   | INPUT                                                                              | OUTPUT                                                                                                            |
 |-------------------------------------------------------------------------|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Will return an empty Database                                           | null                                                                               | null                                                                                                              |
-| Will allow User to Create a profile                                     |  Username: TaylorLoftisKim Password: *****aFirstName: Taylor LastName: Loftis Etc. | Profile: TaylorLoftisKim                                                                                          |
+| Will allow User to Create a profile                                     |  Username: TaylorLoftisKim Password: *****FirstName: Taylor LastName: Loftis Etc. | Profile: TaylorLoftisKim                                                                                          |
 | Will allow User to Log-In to existing profile                           | Username: TaylorLoftisKim  Password: *****                                         | Profile Login Successful                                                                                          |
 | Will allow User to update their profile                                 | Edit Profile:                                                                      | Username: TaylorLoftisKim Password: ***** FirstName: Taylor LastName: Loftis-Kim Email: taylorloftiskim@gmail.com |
 | Will allow User to delete their profile                                 | Delete Profile:                                                                    | Database: null                                                                                                    |
@@ -29,28 +29,23 @@ _Longer Description_
 | Will allow User to delete specific messages sent from multiple profiles | View All Messages: From Brian: Yo --- DELETE                                       | View All Messages: null.                                                                                          |
 |                                                                         |                                                                                    |                                                                                                                   |
 
+## Required Tools
+
+* Runs on Windows.
+ 
 
 ## Setup/Installation Requirements
 
-* _Download the repository [here](https://github.com/brianpritt/date-a-base "Date-A-Base Project"). Run on Windows with Powershell. In powershell, navigate into the repository directory and use command >dnx kestrel to run. Open up any browser window and enter localhost:5004 into URL search bar. Use command >dnx test to run tests in Test folder._
-* SQL for creating database(MyServerManagement):
-Create DATABASE date_a_base
-go
-USE [date_a_base]
-GO
-/****** Object:  Table [dbo].[matches]    Script Date: 12/21/2016 2:18:19 PM ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[matches](
-	[id] [int] IDENTITY(1,1) NOT NULL,
-	[user1_id] [int] NULL,
-	[user2_id] [int] NULL
-) ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[messages]    Script Date: 12/21/2016 2:18:19 PM ******/
-SET ANSI_NULLS ON
+* Runs on Windows. Needs installtion of .NET Framework 4.5.1, MSSQL. 
+* _Download the repository [here](https://github.com/brianpritt/date-a-base "Date-A-Base Project")_
+* _Recreate the databases by importing the two .sql files to MSSQL._
+* _In a shell, navigate to the repository directory and use command > dnx kestrel to run the app._
+* _Open up any browser window and enter localhost:5004 into URL search bar._
+* _Use command > dnx test to run tests in Test folder._
+
+
+
+N
 GO
 SET QUOTED_IDENTIFIER ON
 GO
@@ -136,10 +131,9 @@ _Please contact author through GitHub at username: brianpritt_
 
 ## Technologies and Resources Used
 
-_HTML, CSS, C#, Xunit,  Nancy, Razor, Git, GitHub, MSSQl_
+_HTML, CSS, C#, CSS, HTML, Git, MSSQL/SSMS, .NET_
 
-### License
-
+### License   
 *MIT*
 
 Copyright (c) 2016 **_Lina Shadrach, Brian Pritt, Taylor Loftis-Kim, James Howard_**
