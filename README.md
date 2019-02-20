@@ -37,7 +37,7 @@ _This app allows users to create a profile that will be used as their "Dating Pr
 * _Recreate the databases by importing the two .sql files to MSSQL._
 * _In a shell, navigate to the repository directory and use command > dnx kestrel to run the app._
 * _Open up any browser window and enter localhost:5004 into URL search bar._
-* _Use command > dnx test to run tests in Test 
+* _Use command > dnx test to run tests in Test_
 
 
 ## Bugs/Issues
